@@ -1,0 +1,16 @@
+Practice 09:
+------------
+//functions protype definition
+int get_day(int, int);
+bool check_year(int);
+
+int main() {    
+
+    /* Input month number from user (1-12) */
+    ...
+   return 0;
+}
+- Input:
+Enter month number (1-12): 4
+- Output:
+30 days

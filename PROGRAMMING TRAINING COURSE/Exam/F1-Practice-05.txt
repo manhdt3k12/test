@@ -1,0 +1,14 @@
+Practice 05:
+------------
+Write a C++ program to find maximum between three numbers using ladder if else or nested if. 
+How to find maximum or minimum between three numbers using if else in C++ programming. Logic 
+to find maximum or minimum between three numbers in C++ program.
+- Requirements: define and using the find_max() function
+  int find_max(int num1,int num2,int num3)
+- Input:
+  Input num1: 10
+  Input num2: 20
+  Input num3: 15
+
+- Output:
+  Maximum is: 20

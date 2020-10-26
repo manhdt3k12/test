@@ -1,0 +1,29 @@
+Practice 20:
+------------  
+class student{
+  ...		
+};
+
+int main() {
+	//1. Khai bao bien doi tuong
+	... a;
+	... *b;
+	
+	...
+	
+	//5. Khai bao con tro tham chieu data member & member function
+	...rollno;         // pointer to data member 'rollno'	
+	...getNumber;      // pointer to member function 'getNumber()'
+	...PrintInfo;      // pointer to member function 'getNumber()'
+
+	...
+	
+	return 0;
+}
+/* Output */
+- RollNo: 100
+- FullName: Nguyen Van A
+- Age: 300
+- RollNo: 500
+- Get Number: 200
+- Get Print Info: 8.5

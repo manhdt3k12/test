@@ -1,0 +1,36 @@
+Practice 14:
+------------
+// Base class
+class Shape {
+   ...
+};
+ 
+// Derived classes
+class Rectangle: ... {
+   ...
+};
+
+class Triangle: ... {
+   ...
+};
+ 
+int main(void) {
+   Rectangle Rect;
+   Triangle  Tri;
+ 
+   ...setWidth(5);
+   ...setHeight(7);
+   
+   // Print the area of the object.
+   cout << "Total Rectangle area: " << ...getArea() << endl;
+
+   ...
+   
+   // Print the area of the object.
+   cout << "Total Triangle area: " << ...getArea() << endl; 
+
+   return 0;
+}
+/* Output */
+Total Rectangle area: 35
+Total Triangle area: 17

@@ -1,0 +1,25 @@
+Practice 23:
+------------  
+// template <typename T> & template <class T> is the same
+template <...>
+class myIncrement {
+  
+};
+template <>
+class myIncrement <...> {
+  ...
+};
+int main () {
+  myIncrement<int> myint (7);
+  myIncrement<char> mychar ('a');
+  myIncrement<double> mydouble(11.0);
+
+  cout<<"Incremented int value: "<< ...toIncrement()<< endl;
+  cout<<"Incremented char value: "<<...toIncrement()<< endl;
+  cout<<"Incremented double value: "<<...toIncrement()<< endl;  
+  return 0;
+}
+/* Output */
+Incremented int value: 8
+Incremented char value: b
+Incremented double value: 12

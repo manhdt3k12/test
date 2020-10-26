@@ -1,0 +1,8 @@
+What is dynamic casting in C++?
+A cast is an operator that forces one data type to be converted into another data type. 
+In C++, dynamic casting is, primarily, used to safely downcast; i.e., cast a base class pointer (or reference) to a 
+derived class pointer (or reference). It can also be used for upcasting; i.e., casting a derived class pointer (or reference) 
+to a base class pointer (or reference).
+Dynamic casting checks consistency at runtime; hence, it is slower than static cast.
+Take a look at the function signature of the dynamic cast below:
+new_type *newPtr = dynamic_cast<new_type*>(Ptr);

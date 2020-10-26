@@ -1,0 +1,25 @@
+Practice 12:
+------------
+class A {
+    ...
+};
+
+class B {
+    ...
+};
+
+// Function add() is the friend function of classes A and B
+// that accesses the member variables numA and numB
+int add(A objectA, B objectB)
+{
+   return (...numA + ...numB);
+}
+
+int main()
+{
+    ...
+    cout<<"Sum: "<< ...;
+    return 0;
+}
+- Output:
+Sum: 13

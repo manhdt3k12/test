@@ -1,0 +1,9 @@
+Practice 04:
+------------
+Write a C++ program to count the number of occurrences of given number in a sorted array of integers.
+Original array: 5 7 8 8 5 8 7 7 
+Number of occurrences of 8 : 3
+- Requirements: define and using the count_the_number() function
+  int count_the_number(int arr[], int n, int k)
+- Output: 
+  Number of occurrences of 8 : 3

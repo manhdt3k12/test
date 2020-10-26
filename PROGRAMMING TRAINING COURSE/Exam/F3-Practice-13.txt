@@ -1,0 +1,27 @@
+Practice 13:
+------------
+class Base
+{
+  ...
+};
+Base::~Base()
+{
+    ...
+}
+
+class Derived : ...
+{
+  ...  
+};
+
+int main()
+{
+    ...
+    return 0;
+}
+- Output:
+:D
+~Derived() is executed
+Pure virtual destructor is called
+~Derived() is executed
+Pure virtual destructor is called

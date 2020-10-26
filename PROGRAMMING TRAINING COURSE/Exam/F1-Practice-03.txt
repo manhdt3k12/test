@@ -1,0 +1,8 @@
+Practice 03
+-----------
+Write a C++ program to find k largest elements in a given array of integers.
+Requirements: using a sort() function in C++.
+Original array: 4 5 9 12 9 22 45 7 
+Largest 4 Elements: 45 22 12 9
+
+

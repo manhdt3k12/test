@@ -1,0 +1,29 @@
+Practice 19:
+------------  
+class Student{
+	...
+};
+
+int main() {
+	...	
+  return 0;
+}
+/* Output */
+--- Object 01 ---
+- rollNo: -1
+- fullName: IMIC Technology
+- age: -1
+- score: 0
+
+--- Object 02 ---
+- rollNo: 100
+- fullName: Nguyen Van A
+- age: 500
+- score: 8.5
+
+--- Object 03 ---
+- rollNo: 200
+- fullName: Tran Thi B
+- age: 400
+- score: 9.5
+

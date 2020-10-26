@@ -1,0 +1,32 @@
+Practice 22:
+------------  
+class Weapon {
+   ...
+};
+
+class Bomb : ... {
+   ...
+};
+
+class Gun : public Weapon {
+   ...
+};
+
+class Loader {
+   ...
+};
+
+int main() {
+	
+   ...
+   ... *w;    
+   
+   ...->loadFeatures(...);
+   ...
+   return 0;
+}
+/* Output */
+Loading weapon features.
+Loading bomb features.
+Loading weapon features. 
+Loading gun features.

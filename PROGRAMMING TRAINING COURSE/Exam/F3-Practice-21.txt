@@ -1,0 +1,40 @@
+Practice 21:
+------------  
+class dog
+{
+public:
+    dog()
+    {
+       ...
+    }
+
+    ~dog()
+    {
+        ...
+    }
+
+    ...
+    
+};
+
+class Yellowdog : ...
+{
+public:
+        ...
+        void bark(string name)
+        {
+            ...
+        }
+};
+
+int main()
+{
+    ... d;
+    d.seeCat();
+    return 0;
+}
+/* Output */
+Constructor called
+Virtual method called - dog
+Derived class Constructor called
+Virtual method called - ~dog

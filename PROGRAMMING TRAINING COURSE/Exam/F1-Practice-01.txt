@@ -1,0 +1,17 @@
+Practice 01
+-----------
+Write a C++ program to find the largest element of a given array of integers.
+Original array: 5 4 9 12 8 
+Largest element of the said array: 12
+Requirements: define and using the find_largest_small() function
+ Options(opt): 
+  -> 0: small
+  -> 1: largest
+ int find_largest_small(int nums[], int n, int opt);
+
+- Input:
+ Enter 5 numbers: 5 4 9 12 8
+
+- Output:
+ Largest element of the said array: 12
+

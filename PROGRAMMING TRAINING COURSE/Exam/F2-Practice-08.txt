@@ -1,0 +1,15 @@
+Practice 08:
+------------
+//functions protype
+bool check_character(char);
+
+int main() {    
+
+     /* Input a character from user */
+    cout<<"Enter any character: ";
+    cin>>ch;
+    
+    //ALPHABET: >= 97 - <= 122 or >= 65 - <= 90
+    ...
+   return 0;
+}

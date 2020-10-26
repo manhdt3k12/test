@@ -1,0 +1,19 @@
+Practice 07:
+------------
+//function protype
+bool check_year(int);
+
+int main() {    
+
+    /* Input year from user */
+    ...
+
+    /*
+     * If year is exactly divisible by 4  and year is not divisible by 100
+     * or year is exactly divisible by 400 then
+     * the year is leap year.
+     * Else year is normal year
+     */
+    ...
+   return 0;
+}

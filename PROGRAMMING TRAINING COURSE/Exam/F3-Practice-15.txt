@@ -1,0 +1,29 @@
+Practice 15:
+------------
+//Abstract class in c++ (pure virtual function)
+class Shape {
+   ...
+};
+
+// A rectangle is a shape; it inherits shape.
+class Rectangle : ... {
+   ...
+};
+
+// A triangle is a shape too; it inherits shape.
+class Triangle: ... {
+   ...
+};
+
+int main() {
+  ...
+
+  ...setWidth(5);
+  ...setHeight(10);
+
+  ...setWidth(20);
+  ...setHeight(8);
+
+  cout << "The area of the rectangle is: " << ... << endl;
+  cout << "The area of the triangle is: " << ... << endl;
+}

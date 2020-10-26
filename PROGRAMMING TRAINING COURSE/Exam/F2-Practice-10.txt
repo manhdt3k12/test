@@ -1,0 +1,22 @@
+Practice 10:
+------------
+//functions protype definition
+tuple<int, int, char> foo(int n1, int n2) {
+    return make_tuple(n2, n1, 'a');
+}
+pair<int, int> foo1(int num1, int num2) {
+    return make_pair(num2, num1);
+}
+
+int main() {    
+
+    // Unpack the elements returned by foo
+    ...
+    // Storing  returned values in a pair
+    ...
+
+   return 0;
+}
+- Output:
+Tuple: 10 5 a
+Pair: 2 5

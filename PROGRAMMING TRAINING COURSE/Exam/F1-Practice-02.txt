@@ -1,0 +1,13 @@
+Practice 02
+-----------
+Write a C++ program to find the largest three elements in an array.
+Original array: 7 12 9 15 19 32 56 70 
+Three largest elements are: 70, 56, 32
+- Requirements: define and using the largest_three_element() function
+  tuple<int,int,int> largest_three_element(int arr[], int size);
+
+- Input:
+  Original array: 7 12 9 15 19 32 56 70
+
+- Output:
+  Three largest elements are: 70, 56, 32

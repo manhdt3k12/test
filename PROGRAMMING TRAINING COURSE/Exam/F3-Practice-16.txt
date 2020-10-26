@@ -1,0 +1,41 @@
+Practice 16:
+------------
+class Employee {
+   ...
+};
+
+...::Employee(const string firstname, const string lastname){
+    ...
+}
+
+...::~Employee(){
+    ...
+}
+
+string ...::getFirstName() const{ ...; }
+string ...::getLastName() const{ ...; }
+
+void ...::print() const{
+  ...
+}
+
+class Manager:...{
+   public:
+      Manager(...):
+        Employee(...),...{}
+
+      ~Manager...
+
+     ...
+};
+
+int main(){
+
+  ...  
+  cout << "has Salary : " << ...earnings() << endl;
+  return 0;
+}
+/* Output */
+Name: Katie Andrew Thomas
+has Salary : 23000
+Employee destructed

@@ -1,0 +1,72 @@
+Practice 25:
+------------  
+int main()
+{
+    //1. Assign vector
+    vector<int> v;
+
+    //2. fill the array with 10 five times
+    ....;
+
+    cout << "The vector elements are: ";
+    ....
+
+    //3. inserts 15 to the last position
+    v....(15);
+    ...
+    cout << "\nThe last element is: " <<...;
+
+    //5. removes last element
+    v....();
+
+    //6. prints the vector
+    cout << "\nThe vector elements are: ";
+    ...
+
+    //7. inserts 5 at the beginning
+    v.insert(...);
+
+    cout << "\nThe first element is: " << ...;
+
+    //8. removes the first element
+    v.erase(...);
+
+    cout << "\nThe first element is: " << ...;
+
+    //9. inserts at the beginning
+    v.emplace(...);
+    cout << "\nThe first element is: " << ...;
+
+    //10. Inserts 20 at the end
+    v.empla....(20);
+    n = v.size();
+    cout << "\nThe last element is: " << v[n - 1];
+
+    //11. erases the vector
+    v.cl...();
+    cout << "\nVector size after erase(): " << v.size();
+
+    //12. two vector to perform swap
+    vector<int> v1, v2;
+    v1.pu...(1);
+    v1.pu...(2);
+    v2.pu...(3);
+    v2.pu...(4);
+
+    ...
+}
+/* Output */
+The vector elements are: 10 10 10 10 10
+The last element is: 15
+The vector elements are: 10 10 10 10 10
+The first element is: 5
+The first element is: 10
+The first element is: 5
+The last element is: 20
+Vector size after erase(): 0
+
+Vector 1: 1 2
+Vector 2: 3 4
+After Swap
+Vector 1: 3 4
+Vector 2: 1 2

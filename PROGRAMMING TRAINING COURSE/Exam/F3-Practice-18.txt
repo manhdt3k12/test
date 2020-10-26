@@ -1,0 +1,45 @@
+Practice 18:
+------------  
+There are 3 ways to pass C++ arguments to a function:
+ 1) call-by-value
+ 2) call-by-reference with pointer argument
+ 3) call-by-reference with reference argument
+*/
+// C++ program to illustrate call-by-methods in C++ 
+//Pass-by-Value 
+int square1(int n) 
+{ 
+    ...
+} 
+
+//Pass-by-Reference with Pointer Arguments 
+void square2(int *n) 
+{ 
+    ...
+} 
+
+//Pass-by-Reference with Reference Arguments 
+void square3(int &n) 
+{ 
+    ... 
+} 
+
+//Driver program 
+int main() 
+{ 
+    ...
+   return 0; 
+}
+/* Output *//*
+address of n1 in main(): 0x70fddc
+address of n1 in square1(): 0x70fdb0
+Square of n1: 100
+No change in n1: 10
+address of n2 in main(): 0x70fdd8
+address of n2 in square2(): 0x70fdd8
+Square of n2: 100
+Change reflected in n2: 100
+address of n3 in main(): 0x70fdd4
+address of n3 in square3(): 0x70fdd4
+Square of n3: 100
+Change reflected in n3: 100
